@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.monse{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+
+nav{
+    background-color: #fffdfa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.tarjetas{
+    display: flex;
+}
+.logo{
+    width: 100px;
+}
+nav li{
+    display: inline;
+    padding: 60px;
+    font-size: 25px;
+}
+nav img{
+    width: 150px;
+}
+body{
+    margin: auto;
+    background-color: #FBFBF2;
+    
+}
+.card{
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 20px;
+    
+   
+}
+.card-content{
+  padding: 20px;
+}
+.card-img{
+    width: 100px;
+    height: 200px;
+}
+.Tasa{
+    display: block;
+    align-items: center;
+}
+.masV{
+    width: 350px;
+    height: 230px;
+}
+.botom{
+    background-color: #CFD2CD;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+}
+.asaside{
+    
+    align-items: center;
+    display: flex;
+    
+    
+    justify-content: center;
+}
+.pasa{
+    margin-bottom: 100px;
+}
+.opa{
+    margin: 25px;
+}
+footer{
+    background-color: #A6A2A2;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+}

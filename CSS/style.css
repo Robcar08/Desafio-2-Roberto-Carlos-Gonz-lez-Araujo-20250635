@@ -9,7 +9,7 @@
 }
 
 nav{
-    background-color: #fffdfa;
+    background-color: #f2f1ee;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -38,23 +38,26 @@ nav img{
 }
 body{
     margin: auto;
-    background-color: #FBFBF2;
+    background-color: #e9dbc8;
     
 }
 .card{
-    border-radius: 5px;
-    background-color: antiquewhite;
-    padding: 10px;
+
+    width: 300px;
     margin: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #fff9df;
+    box-shadow: 0px 5px 5px #888888;
     
    
 }
 .card-content{
   padding: 20px;
 }
-.card-img{
-    width: 100px;
-    height: 200px;
+.card img{
+    width: 100%;
+    height: 300px;
 }
 .Tasa{
     display: block;
@@ -65,29 +68,76 @@ body{
     height: 230px;
 }
 .botom{
-    background-color: #CFD2CD;
+    background-color: #e2aa72;
     flex-direction: column;
     border-radius: 10px;
     width: 300px;
     padding: 10px;
+    
 }
+
+.botom:hover{
+    box-shadow: 0px 5px 15px #ccc;
+    background-color: #f3c786;
+    transform: 1.05;
+}
+
+.card:hover{
+    box-shadow: 0px 5px 15px #818181;
+    background-color: #ffebb4;
+    transform: 1.05;
+}
+
 .asaside{
     
     align-items: center;
     display: flex;
+    margin-top: 190px;
+    margin-bottom: 100px;
     
     
     justify-content: center;
 }
 .pasa{
-    margin-bottom: 100px;
+    
+    width: 400px;
+    margin-top: -10px;
 }
 .opa{
     margin: 25px;
 }
 footer{
-    background-color: #A6A2A2;
+    background-color: #31231E;
     padding: 50px;
     margin: auto;
     text-align: center;
+    color: white;
+}
+
+.h1c{
+    position: relative; top: -200px;
+    position: relative; right: -400px;
+    font-size: 30px;
+}
+.calta{
+    margin: 90px;
+}
+.pReseña{
+    text-align: center;
+    display: flex;
+    width: 800px;
+    margin: 90px;
+    position: relative; right: -400px;
+    font-size: 25px; 
+}
+
+.precio{
+    color: rgb(172, 104, 40);
+}
+.resei{
+    display: flex;
+    width: 500px;
+    margin: 90px;
+    position: relative; right: -530px;
+    
 }
